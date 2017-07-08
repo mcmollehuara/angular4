@@ -33,7 +33,7 @@ export class NavbarComponent implements OnInit {
             this.fullName = x.contactName;
             this.shortDateTime = x.shortDateTime;
             this.longDateTime = x.longDateTime;
-            this.userName = x.vzid;
+            this.userName = x.id;
             this.isMgr = x.isManager;
         });
 
