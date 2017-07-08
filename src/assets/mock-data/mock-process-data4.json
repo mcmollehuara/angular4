@@ -1,0 +1,53 @@
+{
+    "Metric": {
+        "Id": "31",
+        "ProcessId": "4",
+           "Name": "Metric",
+        "Status": "success",
+        "Maintainability": "23",
+        "MaintainabilityStatus": "success",
+        "Test": "35",
+        "TestStatus": "success",
+        "Security": "23",
+        "SecurityStatus": "warning",
+        "Workmanship": "54",
+        "WorkmanshipStatus": "warning"
+    },
+    "Build": {
+        "Id": "31",
+        "ProcessId": "4",
+        "Name": "Build",
+        "Status": "success",
+        "Datetime": "12/12/2016",
+        "DebugStatus": "success",
+        "ReleaseStatus": "success"
+    },
+    "UnitTest": {
+        "Id": "31",
+        "ProcessId": "4",
+        "Name": "Unit Test",
+        "Status": "success",
+        "CoveragePercentage": "99%",
+        "Passed": "99",
+        "Failed": "1",
+        "PassedPercentage": "99%"
+    },
+    "FunctionalTest": {
+        "Id": "31",
+        "ProcessId": "4",
+        "Name": "Functional Test",
+        "Status": "success",
+        "CoveragePercentage": "99%",
+        "Passed": "99",
+        "Failed": "1",
+        "PassedPercentage": "99%"
+    },
+    "Result": {
+        "Id": "31",
+        "ProcessId": "4",
+        "Name": "Complete",
+        "Status": "success",
+        "Message": "Deploy to Prod",
+        "CorrectiveAction": "Production"
+    }
+}

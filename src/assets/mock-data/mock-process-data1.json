@@ -1,0 +1,53 @@
+{
+    "Metric": {
+        "Id": "1",
+        "ProcessId": "1",
+        "Name": "Metric",
+        "Status": "pending",
+        "Maintainability": "0",
+        "MaintainabilityStatus": "pending",
+        "Test": "0",
+        "TestStatus": "pending",
+        "Security": "0",
+        "SecurityStatus": "pending",
+        "Workmanship": "0",
+        "WorkmanshipStatus": "pending"
+    },
+    "Build": {
+        "Id": "1",
+        "ProcessId": "1",
+        "Name": "Build",
+        "Status": "pending",
+        "Datetime": "12/12/2016",
+        "DebugStatus": "pending",
+        "ReleaseStatus": "pending"
+    },
+    "UnitTest": {
+        "Id": "1",
+        "ProcessId": "1",
+        "Name": "Unit Test",
+        "Status": "pending",
+        "CoveragePercentage": "0%",
+        "Passed": "0",
+        "Failed": "0",
+        "PassedPercentage": "0%"
+    },
+    "FunctionalTest": {
+       "Id": "1",
+        "ProcessId": "1",
+        "Name": "Functional Test",
+        "Status": "pending",
+        "CoveragePercentage": "0%",
+        "Passed": "0",
+        "Failed": "0",
+        "PassedPercentage": "0%"
+    },
+    "Result": {
+        "Id": "1",
+        "ProcessId": "1",
+        "Name": "Pending",
+        "Status": "pending",
+        "Message": "Change Rejected",
+        "CorrectiveAction": "Pending"
+    }
+}

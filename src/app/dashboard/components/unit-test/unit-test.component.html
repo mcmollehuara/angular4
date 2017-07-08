@@ -1,0 +1,26 @@
+<section class="widget  alert alert-{{item.Status}}" widget style="    height: 200px;box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2),0 6px 14px 0 rgba(0,0,0,0.19) !important">
+    <header>
+        <h5>Unit Test </h5>
+    </header>
+    <div class="widget-body">
+        <div class="row">
+            <div class="col-md-8 no-padding">
+                <!--<charts-common [options]="options" [data]="data"></charts-common>-->
+            </div>
+            <div class="col-md-4  no-padding">
+                <h3>{{item.PassedPercentage}}</h3>
+                <small>Test passed</small>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="no-margin"> <span class="">{{item.CoveragePercentage}} Code coverage</span></p>
+                <div class="bg-danger progress-bar progress-xs">
+                    <progress progress-animate class="progress progress-success progress-xs" value="100" max="100" [style.width]="item.CoveragePercentage"
+                        data-width="item.CoveragePercentage"></progress>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,29 @@
+<section class="widget  alert alert-{{item.Status}}" widget style="    height: 200px;box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2),0 6px 14px 0 rgba(0,0,0,0.19) !important">
+    <header>
+        <h5> Build</h5>
+    </header>
+    <div class="widget-body">
+        <div class="row">
+            <div class="col-md-6 text-xs-center">
+                <p>
+                    <i class="fa fa-desktop fa-2x text-{{item.DebugStatus}}" aria-hidden="true"></i>
+
+                </p>
+                <span>Debug</span>
+            </div>
+            <div class="col-md-6 text-xs-center">
+                <p>
+                    <i class="fa fa-desktop fa-2x text-{{item.ReleaseStatus}}" aria-hidden="true"></i>
+                </p>
+                <span>Release</span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-xs-center">                
+                {{item.Datetime | date:"HH:mm"}} - 
+                {{item.Datetime | date: 'MM/dd/yyyy'}}
+            </div>
+        </div>
+    </div>
+</section>

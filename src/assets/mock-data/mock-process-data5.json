@@ -1,0 +1,53 @@
+{
+    "Metric": {
+        "Id": "41",
+        "ProcessId": "5",
+        "Name": "Metric",
+        "Status": "danger",
+        "Maintainability": "32",
+        "MaintainabilityStatus": "danger",
+        "Test": "53",
+        "TestStatus": "success",
+        "Security": "46",
+        "SecurityStatus": "warning",
+        "Workmanship": "87",
+        "WorkmanshipStatus": "warning"
+    },
+    "Build": {
+        "Id": "41",
+        "ProcessId": "5",
+        "Name": "Build",
+        "Status": "success",
+        "Datetime": "12/12/2016",
+        "DebugStatus": "success",
+        "ReleaseStatus": "success"
+    },
+    "UnitTest": {
+        "Id": "41",
+        "ProcessId": "5",
+        "Name": "Unit Test",
+        "Status": "success",
+        "CoveragePercentage": "98%",
+        "Passed": "99",
+        "Failed": "1",
+        "PassedPercentage": "99%"
+    },
+    "FunctionalTest": {
+        "Id": "41",
+        "ProcessId": "5",
+        "Name": "Functional Test",
+        "Status": "success",
+        "CoveragePercentage": "95%",
+        "Passed": "92",
+        "Failed": "8",
+        "PassedPercentage": "92%"
+    },
+    "Result": {
+        "Id": "11",
+        "ProcessId": "2",
+        "Name": "Change Rejected",
+        "Status": "pending",
+        "Message": "Metrics Reduction",
+        "CorrectiveAction": "Find Issues"
+    }
+}

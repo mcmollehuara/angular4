@@ -1,0 +1,48 @@
+<section class="widget alert alert-{{item.Status}}" widget style="    height: 200px;box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2),0 6px 14px 0 rgba(0,0,0,0.19) !important">
+    <header>
+        <h5> Metric</h5>
+    </header>
+    <div class="widget-body">
+            <div class="row">
+        <div class="col-md-6">
+            <div>
+                <p class="h3 text-{{TestStatus}} no-margin">
+                    <strong data-animate-number="">{{item.Test}}</strong>
+                    <i class="fa fa-arrow-circle-{{(this.item.TestStatus == 'success' ? 'up' : (this.item.TestStatus == 'warning' ? 'right' : 'down'))}} text-{{item.TestStatus}}" aria-hidden="true"></i>
+                </p>
+                Test
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <p class="h3  no-margin">
+                    <strong data-animate-number="">{{item.Maintainability}}</strong>
+                    <i class="fa fa-arrow-circle-{{item.MaintainabilityStatus=='success'?'up':'down'}}   text-{{item.MaintainabilityStatus}}" aria-hidden="true"></i>
+                </p>
+                Maintainability
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+             <div>
+                <p class="h3  no-margin">
+                    <strong data-animate-number="">{{item.Security}}</strong>
+                    <i class="fa fa-arrow-circle-right  text-{{item.SecurityStatus}}" aria-hidden="true"></i>
+                </p>
+                Security
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div>
+                <p class="h3  no-margin">
+                    <strong data-animate-number="">{{item.Workmanship}}</strong>
+                    <i class="fa fa-arrow-circle-right  text-{{item.WorkmanshipStatus}}" aria-hidden="true"></i>
+                </p>
+                Workmanship
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
