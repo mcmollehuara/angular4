@@ -32,7 +32,7 @@ export class DashboardComponent implements OnInit {
     //////////////////////////////////////////
     private setLocalStorage() {
         let tokenInfo=
-        { "bearer":"Bearer da759c62d38db73bb29de20c3b97818943ba3be0", "token":{ "token":"da759c62d38db73bb29de20c3b97818943ba3be0", "refresh_token":"e487dabec0361d22b6db1164c00c81f3a14e4244", "expire_in_min":30, "user":{ "user_sid":"S-1-5-21-4131678173-2989437408-1988978235-125252", "user_name":"V504274", "display_name":"Condori Mollehuara, Miguel", "email":"mcondori@one.verizon.com" } },"startDate":"2017-01-30T14:12:35.252Z" };
+        { "bearer":"Bearer da759c62d38db73bb29de20c3b97818943ba3be0", "token":{ "token":"da759c62d38db73bb29de20c3b97818943ba3be0", "refresh_token":"e487dabec0361d22b6db1164c00c81f3a14e4244", "expire_in_min":30, "user":{ "user_sid":"S-1-5-21-4131678173-2989437408-1988978235-125252", "user_name":"V504274", "display_name":"Condori Mollehuara, Miguel", "email":"mcondori@uix.com" } },"startDate":"2017-01-30T14:12:35.252Z" };
         
         localStorage.setItem('tokenInfo', JSON.stringify(tokenInfo));
 

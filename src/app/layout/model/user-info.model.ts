@@ -1,7 +1,7 @@
 export class UserInfoModel {
   public firstName: string = "";
   public lastName: string = "";
-  public vzid: string = "";
+  public id: string = "";
   public contactName: string = "";
   public longDateTime: string = "";
   public shortDateTime: string = "";
